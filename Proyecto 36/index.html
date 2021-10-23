@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+<!-- El SDK de Firebase JS principal siempre es obligatorio y se debe figurar primero -->
+<!-- TODO: Agrega SDK para los productos de Firebase que quieras usar
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+     <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-database.js"></script>
+
+<script>
+  // Configuración de Firebase de tu aplicación web
+  var firebaseConfig = {
+    apiKey: "AIzaSyBaXlp1T0YMKXrJJJY7jXA5smk2R5HmiUA",
+    authDomain: "mascota-virtual-446a7.firebaseapp.com",
+    databaseURL: "https://mascota-virtual-446a7-default-rtdb.firebaseio.com",
+    projectId: "mascota-virtual-446a7",
+    storageBucket: "mascota-virtual-446a7.appspot.com",
+    messagingSenderId: "876501853815",
+    appId: "1:876501853815:web:efdb2097b333f381f34872"
+  };
+  // Inicializar Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+  
+    <script src="Food.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+</body></html>
